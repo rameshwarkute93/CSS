@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Selector</title>
+    </head>
+
+    <style>
+
+        /* Universal Selector */
+
+        /* *{
+            border: 2px solid red;
+            margin: 0px;
+            padding: 10px;
+            
+        } */
+
+        /* Element/Tag selector */
+
+        /* p{
+            color:brown;
+        } */
+
+
+        /* ID Selector */
+
+        #para_one{
+            color: red;
+            background-color: yellow;
+        }
+
+        /* Class Selector */
+
+        .One{
+            color: aqua;
+            background-color: beige;
+        }
+
+        /* Group Selector */
+
+        #para_one , .One{
+            color: black;
+            background-color: blueviolet;
+        }
+
+        /* Descendent Selector */
+        section div p{
+            color:aqua ;
+            background-color: brown;
+        }
+
+
+        /* Child Combinator Selector */
+
+        section > div > p{
+            color: blueviolet;
+            background-color: azure;
+        }
+
+        /* Attribute Selector */
+
+        input[type="text"]{
+                background-color:blue;
+        }
+
+        input[type="email"]{
+                background-color : aqua;
+        }
+
+        a[href="www.com"]{
+            color: brown;
+        }
+
+        a[href="www.org"]{
+            color: chartreuse;
+        }
+
+
+
+
+    </style>
+
+    <body>
+        <p id="para_one">This is Parah 1</p>
+        <p class="One">This is Parah 2</p>
+        <p>This is Parah 3</p>
+        <p>This is Parah 4</p>
+        <p>This is Parah 5</p>
+        <p class="One">This is Parah 6</p>
+        <p>This is Parah 7</p>
+        <p>This is Parah 8</p>
+        <p class="One">This is Parah 9</p>
+        <p>This is Parah 10</p>
+
+        <section>
+            <div>
+                <p>This is para of div of section</p>
+            </div>
+        </section>
+
+        <input type="text">
+        <input type="email">
+        <input type="tel">
+        <input type="password">
+
+        <a href="www.com">Com</a>
+        <a href="www.org">Org</a>
+
+    </body>
+</html>
