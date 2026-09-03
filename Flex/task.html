@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <style>
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            section{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                align-items: center;
+            }
+
+            #first{
+                width: 100%;
+                text-align: center;
+            }
+
+            #one{
+                font-size: 50px;
+                font-weight: bold;
+            }
+
+            .common{
+                width: 100%;
+            }
+
+            @media only screen and (min-width:992px){
+                .common{
+                width: 30%;
+               }
+            }
+
+            .common img{
+                width: 100%;
+            }
+
+        </style>
+    </head>
+    <body>
+        <section>
+            <div id="first">
+                <h3>About Us</h3>
+                <p id="one">Serving Since 1950</p>
+            </div>
+
+            <div class="common">
+                <h1>Our Story</h1>
+                <p>Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum
+                    amet sed vero dolor sea</p>
+                <p>Takimata sed vero vero no sit sed, justo clita duo no duo
+                    amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet
+                    sit amet amet no. Est nonumy sed labore eirmod sit magna.
+                    Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
+                <button>Learn More</button>
+            </div>
+
+            <div class="common">
+                <img src="https://themewagon.github.io/Koppee/img/about.png"
+                    alt>
+            </div>
+
+            <div class="common">
+                <h1>Our Story</h1>
+                <p>Eos kasd eos dolor vero vero, lorem stet diam rebum. Ipsum
+                    amet sed vero dolor sea</p>
+                <p>Takimata sed vero vero no sit sed, justo clita duo no duo
+                    amet et, nonumy kasd sed dolor eos diam lorem eirmod. Amet
+                    sit amet amet no. Est nonumy sed labore eirmod sit magna.
+                    Erat at est justo sit ut. Labor diam sed ipsum et eirmod</p>
+                <button>Learn More</button>
+            </div>
+        </section>
+    </body>
+</html>
