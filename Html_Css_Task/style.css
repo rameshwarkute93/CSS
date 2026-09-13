@@ -80,9 +80,9 @@ header {
     transition: 0.3s;
 }
 
-#navlinks a:hover {
+/* #navlinks a:hover {
     color: #ff5722;
-}
+} */
 
 #navlinks i {
     margin-left: 10px;
