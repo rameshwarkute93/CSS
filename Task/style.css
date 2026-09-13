@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+span {
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* #navlinks {
+    display: none;
+
+}
+
+@media only screen and (min-width:601px) {
+    #menu {
+        display: flex;
+    }
+} */
+
+
+#one {
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+#two {
+    border: 1px solid red;
+}
+
+#hero_section_img {
+    width: 100%;
+}
+
+#about_one {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+#about_two {
+    border: 1px solid red;
+}
